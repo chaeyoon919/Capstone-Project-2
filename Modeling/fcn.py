@@ -181,7 +181,7 @@ fcn_model.compile(
 # 모델 구조 확인
 fcn_model.summary()
 
-"""### 모델 학ㅂ"""
+"""### 모델 학"""
 
 EPOCHS = 100 # epoch 수 정의
 BATCH_SIZE = 4   # batch_size 정의
@@ -242,7 +242,7 @@ plt.title('Miou', size=14)
 plt.legend(['train_miou', 'val_miou'])
 plt.show()
 
-"""### 테스트 데이터 예측 및 결ㅏ """
+"""### 테스트 데이터 예측 및 결 """
 
 # 테스트 데이터 예측
 prediction_fcn = fcn_model.predict(np.array(x_test))
