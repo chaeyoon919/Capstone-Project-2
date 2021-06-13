@@ -18,7 +18,7 @@ University of Cambridged에서 제공하는 CamVid 데이터셋을 사용하여 
 ## :scissors: Data preprocessing
 <img width="983" alt="스크린샷 2021-06-13 오후 10 57 00" src="https://user-images.githubusercontent.com/55734436/121810173-b6de8b80-cc9a-11eb-8981-f174c8b1fb70.png">
 
-- cv2.imread 함수를 사용하여 데이터를 읽어올시 BGR형태로 데이터가 바뀌게 됩니다. 따라서 cvtColor함수를 사용하여 원본 데이터인 RGB형태로 변경합니다.
+- cv2.imread 함수를 사용하여 데이터를 읽어올시 BGR형태로 데이터가 바뀌게 됩니다. 따라서 cvt.cvtColor함수를 사용하여 원본 데이터인 RGB형태로 변경합니다.
 - 원본 데이터의 크기는 (720,960,3)입니다. 학습 시 속도 향상의 효율성을 위해 cv2에서 제공하는 resize 함수를 사용하여 (128,128,3)로 사이즈를 변경합니다.
 
 Labeled 데이터도 다음과 동일하게 전처리를 진행합니다.
