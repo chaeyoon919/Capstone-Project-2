@@ -35,7 +35,7 @@ Labeled 데이터도 다음과 동일하게 전처리를 진행합니다.
 |  |--Labeled_data        # labeled 데이터 
   
     |--Preprocessing
-    |  |--jpreprocessing.py    # 데이터 전처리 
+    |  |--preprocessing.py    # 데이터 전처리 
 
         |--Modeling      
         |  |--fcn.py     # fcn 모델
