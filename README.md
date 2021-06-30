@@ -1,5 +1,4 @@
 # Semantic-Segmentation
-캡스톤 프로젝트2 과목을 수강하며 진행했던 프로젝트입니다.
 
 ## :raising_hand: Participant
 - 김서희[rlawjdghl456@naver.com]
