@@ -3,7 +3,7 @@
 ## :raising_hand: Participant
 - 김서희[rlawjdghl456@naver.com]
 - 서민지[jaaaamj0711@gmail.com]
-- 이채윤[you8438@naver.com]
+- 이채윤[dbs8438@gmail.com]
 
 ## :information_desk_person: Introduce
 University of Cambridged에서 제공하는 CamVid 데이터셋을 사용하여 Semantic-Segmentation을 진행하였습니다. 해당 데이터셋은 주행하면서 얻은 거리 수준 뷰가 들어있는 영상 모음으로 자동차, 도로등을 포함하여 총 32개의 클래스에 대한 픽셀 수준의 레이블이 담겨있습니다.  
